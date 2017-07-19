@@ -1,0 +1,198 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 1440px;
+    height: 1024px;
+    /*background-color: white;*/
+    /*background-image: url("img/o-matic3.png");*/
+}
+
+#header img {
+    width: 1440px;
+    height: 1024px;
+}
+
+#menu {
+    width: 50px;
+    height: 50px;
+    margin: 60px 0px 60px 1330px;
+    background-color: white;
+    float: right;
+    position: absolute;
+}
+
+.hamburger {
+    width: 17px;
+    height: 3px;
+    background: black;
+    margin: 10px 0px 0px 15px;
+}
+
+#circle {
+    width: 25px;
+    height: 25px;
+    background-color: #DC5556;
+    position: absolute;
+    margin: 72px 0px 130px 1285px;
+    border-radius: 50%;
+}
+
+#vacatures {
+    width: 124px;
+    height: 19px;
+    position: absolute;
+    margin: 60px 0px 150px 1156px;
+}
+
+#read {
+    width: 106px;
+    height: 44px;
+    border: 1px solid white;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: 647px;
+}
+
+#button {
+    width: 73px;
+    height: 73px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 905px;
+}
+
+#content {
+    background-color: #F1EFE7;
+    width: 1440px;
+    height: 1372px;
+    position: absolute;
+}
+
+#block-wrapper {
+    width: 1320px;
+    height: 1196px;
+    margin: 0 auto;
+    padding-top: 80px;
+    /*background-color: green;*/
+}
+
+.block {
+    width: 400px;
+    height: 572px;
+    background-color: white;
+    margin-bottom: 52px;
+    float: left;
+    margin-right: 40px;
+}
+
+.contentImg {
+    width: 400px;
+    height: 270px;
+}
+
+.category {
+    width: 97px;
+    height: 27px;
+    border: 1px solid #DC5556;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#contentText {
+    position: absolute;
+    width: 339px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+    #container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #header {
+        width: 100%;
+        height: 1024px;
+        /*background-color: white;*/
+        /*background-image: url("img/o-matic3.png");*/
+    }
+
+    #read {
+        width: 106px;
+        height: 44px;
+        border: 1px solid white;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        margin-top: 800px;
+    }
+
+    #block-wrapper {
+        width: 90%;
+    }
+
+    .block {
+        width: 90%;
+        height: 600px;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 150px;
+    }
+
+     .block img {
+         width: 400px;
+         margin: 0 auto;
+         text-align: center;
+     }
+     .block-wrapper {
+         width: 100%;
+     }
+
+    #content {
+        background-color: #F1EFE7;
+        width: 100%;
+        height: 5000px;
+        position: absolute;
+    }
+
+    #contentImg {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 80px;
+        color: #FFFFFF;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        margin-top: 409px;
+        letter-spacing: 8px;
+        line-height: 70px;
+    }
+
+}

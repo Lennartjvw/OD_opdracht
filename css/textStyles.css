@@ -1,0 +1,76 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  margin-top: 409px;
+  letter-spacing: 8px;
+  line-height: 70px;
+
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  left:0;
+  width: 100%;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 61px;
+  position: absolute;
+  text-align: center;
+  /*border-bottom: 2px solid #FFFFFF;
+  border-width: 400px;*/
+}
+
+.textstyle1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #DC5556;
+  margin-top: 7px;
+}
+
+.textstyle2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #000A1A;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 28px;
+  letter-spacing: 1.88px;
+}
+
+.textstyle3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  margin-top: 28px;
+  line-height: 30px;
+}
+
+.textstyle4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.textstyle5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1.67px;
+  line-height: 40px;
+  margin-top: 152px;
+  margin-left: 48px;
+}
